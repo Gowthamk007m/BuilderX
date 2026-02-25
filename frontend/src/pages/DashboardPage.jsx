@@ -9,6 +9,8 @@ function DashboardPage() {
   const [error, setError] = useState('')
   const [isLoading, setIsLoading] = useState(true)
   const [isGenerating, setIsGenerating] = useState(false)
+  const [error, setError] = useState('')
+  const [isLoading, setIsLoading] = useState(true)
   const navigate = useNavigate()
 
   useEffect(() => {

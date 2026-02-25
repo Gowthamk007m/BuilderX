@@ -6,6 +6,8 @@ from rest_framework import permissions, status, viewsets
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from rest_framework import permissions, viewsets
+
 from .models import Project
 from .serializers import ProjectSerializer
 
